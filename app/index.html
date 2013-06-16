@@ -6,21 +6,64 @@
     <title>Sizer Soze - What is the cost of your non-responsive images?</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/main.css">
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+
   </head>
   <body>
 
     <div class="container">
       <h1>Sizer Soze</h1>
-    </div>
+      <p>What is the cost of your non-responsive images?</p>
 
-    <!-- build:js scripts/main.js -->
+      <div class="searchbar">
+        <form action="" id="searchform" method="get">
+          <input type="search" id="url" name="url" value="" placeholder="enter a url">
+          <input type="submit" value="Search" id="searchsubmit">
+        </form>
+      <div>
+
+      <table id="results">
+        <tr>
+          <thead>
+            <tr>
+              <th>Viewport</th>
+              <th>Image Data</th>
+              <th>Optimized Savings</th>
+              <th>Resize Savings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>320</td>
+              <td>12345</td>
+              <td>12345</td>
+              <td>12345</td>
+            </tr>
+            <tr>
+              <td>750</td>
+              <td>12345</td>
+              <td>12345</td>
+              <td>12345</td>
+            </tr>
+            <tr>
+              <td>960</td>
+              <td>12345</td>
+              <td>12345</td>
+              <td>12345</td>
+            </tr>
+            <tr>
+              <td>1200</td>
+              <td>12345</td>
+              <td>12345</td>
+              <td>12345</td>
+            </tr>
+          </tbody>
+        </tr>
+      </table>
+    </div>
+    <script src="../components/jquery/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
-    <!-- endbuild -->
 
   </body>
 </html>
